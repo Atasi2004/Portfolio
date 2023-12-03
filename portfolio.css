@@ -1,0 +1,16 @@
+.hamburger-show{
+    background-color: rgba(240, 237, 237, 0.808);
+    padding: 20px;
+    color: black;
+    position: absolute;
+    top:60px;
+    right:10px;
+    width:100px;
+    visibility: hidden;
+    z-index: 1;
+    /* height: 0; */
+}
+.hamburger-show.hambuger-show-open{
+    visibility: visible;
+    /* max-height: 300px; */
+}
